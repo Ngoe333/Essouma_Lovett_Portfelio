@@ -3,4 +3,59 @@
     padding:0;
     box-sizing:border-box;
     font-family:"poppins" sans-serif;
+    text-decoration:none;
 }
+
+html{
+    overflow:hidden;
+    scroll-behavior:smooth;
+}
+
+.fa-bars,.fa-xmark{
+    display: none;
+}
+
+
+.header{
+    width:100%;
+    background-color:rgb(236, 236, 236);
+    padding:10px 8%;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:0 2px 12px #000
+
+}
+
+.logo span{
+    color:rgb(145, 145, 56);
+}
+
+.header ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.header ul li a{
+    color:rgb(32, 30, 30);
+    font-size: 20px;
+}
+
+.header ul li a:hover{
+    color:rgb(145, 145, 56);
+}
+
+.social_icon,.fa-brands{
+    padding-right:15px;
+    cursor: pointer;
+    color:rgb(145, 145, 56);
+    transition: 0.3s;
+}
+
+.social_icon,.fa-brands:hover{
+    transform: translateY(-7px);
+    
+}
+
