@@ -22,10 +22,12 @@ html{
     padding:10px 8%;
     top:0;
     left:0;
+    position:fixed;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    box-shadow:0 2px 12px #000
+    box-shadow:0 2px 12px rgb(234, 234, 234);
+    z-index:5;
 
 }
 
@@ -57,5 +59,61 @@ html{
 .social_icon,.fa-brands:hover{
     transform: translateY(-7px);
     
+}
+
+/* Partie de la page d'accueil du siteweb */
+
+.page_accueil{
+    width:100%;
+    height:100vh;
+    padding:0 8%;
+    /* background-image: url(./Images/Web_Background.jpeg); */
+    background-color: black;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page_accueil .p_description{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:whitesmoke;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+.p_description span{
+    color:rgb(145, 145, 56);
+}
+
+.page_accueil .contact_b{
+    position: absolute;
+    left: 8%;
+    bottom: 36%;
+    border: 1px solid rgb(145, 145, 56);
+    padding: 10px 20px;
+    background: transparent;
+
+}
+
+.contact_b a{
+    font-size: 17px;
+}
+
+.contact_b .fa-arrow-right-long{
+    color: white;
+    font-size: 10px;
+}
+
+.left_side{
+    width:30%;
+
+}
+
+.left_side img{
+    width: 100%;
 }
 
